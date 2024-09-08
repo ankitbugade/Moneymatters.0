@@ -1,0 +1,23 @@
+
+.wrapper, .charts-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.charts-wrapper{
+  width: 95%;
+  flex: 1;
+  justify-content: space-between;
+  height: auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  margin-left: 2rem;
+}
+
+.charts-wrapper > div{
+  max-width: 60%;
+}
