@@ -4,8 +4,9 @@ import { getAnalytics } from "firebase/analytics";
 import { getAuth, GoogleAuthProvider} from "firebase/auth";
 import { getFirestore, doc, setDoc, getDoc} from "firebase/firestore"
 
+
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API_KEY,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "moneymatters-0.firebaseapp.com",
   projectId: "moneymatters-0",
   storageBucket: "moneymatters-0.appspot.com",
