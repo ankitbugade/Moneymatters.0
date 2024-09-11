@@ -6,7 +6,7 @@ import { getFirestore, doc, setDoc, getDoc} from "firebase/firestore"
 
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: import.meta.env.VITE_APIKEY,
   authDomain: "moneymatters-0.firebaseapp.com",
   projectId: "moneymatters-0",
   storageBucket: "moneymatters-0.appspot.com",
