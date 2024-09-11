@@ -10,8 +10,8 @@ const firebaseConfig = {
   authDomain: "moneymatters-0.firebaseapp.com",
   projectId: "moneymatters-0",
   storageBucket: "moneymatters-0.appspot.com",
-  messagingSenderId: "920279948088",
-  appId: "1:920279948088:web:780acd4ef634431b6c3fcd",
+  messagingSenderId: VITE_MESSAGE_SENDER_ID,
+  appId: VITE_APP_ID,
   measurementId: "G-HYP2VS9CN0"
 };
 
